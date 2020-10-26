@@ -1,0 +1,56 @@
+ALGORITHM phrase
+VAR
+phr , voyelles , mot: STRING
+lettre : CHAR
+nbVoyelles , i , mots  : INTEGER 
+BEGIN
+write (phr)
+read (phr)
+i := 0
+lettre := phr[i]
+ i := lenght(phr) - 1
+lettre := phr[i]
+
+i = 0 , mots = 0;
+ while  ( i < phr ) DO
+ while( phr [ i ] == ’ ’ )] DO
+i ++;
+mots ++;
+END_WHILE
+END_WHILE
+ while ( i < phr && phrase [ i ] <> ’ ’ )DO
+i ++;
+return mots ;
+END_WHILE
+
+
+
+
+
+
+voyelles := "aeiouy" ;
+nbVoyelles := 0;
+FOR( int i = 0; i < mot) DO ;
+ i ++;
+est une voyelle = 0;
+ j = 0;
+ while (est une voyelle && j < voyelles) DO
+est une voyelle = (mot [ i ] = voyelles [ j ] ) ;
+j ++;
+nbVoyelles := est une voyelle ;
+return nbVoyelles ;
+END_WHILE
+END_FOR
+
+
+
+
+
+
+
+
+
+
+
+
+END
